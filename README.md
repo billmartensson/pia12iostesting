@@ -13,5 +13,8 @@ Det är **jättebra**
 
 ~~The world is flat.~~
 
+[This is Howto](https://github.com/billmartensson/pia12iostesting/blob/main/Howto.md)
+
+
 
 
