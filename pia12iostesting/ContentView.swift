@@ -16,7 +16,9 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("*Hello*, **world**!")
+            
+            Text("Detta är text som är ~~jättebra~~")
             
             if number > 3 {
                 Text("Too big number")

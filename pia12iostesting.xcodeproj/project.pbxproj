@@ -47,6 +47,7 @@
 		E897BFE72B3035DE00C2E9C1 /* pia12iostestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pia12iostestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E897BFF42B30368C00C2E9C1 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		E897BFF62B30673700C2E9C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E897BFF72B306A9F00C2E9C1 /* Howto.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Howto.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				E897BFF62B30673700C2E9C1 /* README.md */,
+				E897BFF72B306A9F00C2E9C1 /* Howto.md */,
 				E897BFC92B3035DC00C2E9C1 /* pia12iostesting */,
 				E897BFDA2B3035DE00C2E9C1 /* pia12iostestingTests */,
 				E897BFE42B3035DE00C2E9C1 /* pia12iostestingUITests */,
