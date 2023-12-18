@@ -8,7 +8,8 @@
 import XCTest
 
 final class pia12iostestingUITests: XCTestCase {
-
+    var app: XCUIApplication!
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
@@ -16,6 +17,10 @@ final class pia12iostestingUITests: XCTestCase {
         continueAfterFailure = false
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        
+        app = XCUIApplication()
+        app.launchArguments = ["testing"]
+        app.launch()
     }
 
     override func tearDownWithError() throws {
@@ -27,7 +32,19 @@ final class pia12iostestingUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        app.buttons["Plus"].tap()
+        app.buttons["Plus"].tap()
+        app.buttons["Plus"].tap()
+        app.buttons["Plus"].tap()
+        app.buttons["Plus"].tap()
+
+        let screenshot = app.screenshot()
+        let attachment = XCTAttachment(screenshot: screenshot)
+        attachment.lifetime = .keepAlways
+        add(attachment)
+        
+        let message = app.staticTexts["Too big number"]
+        XCTAssertTrue(message.waitForExistence(timeout: 5))
     }
 
     func testLaunchPerformance() throws {

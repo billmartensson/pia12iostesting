@@ -14,6 +14,7 @@
 		E897BFDC2B3035DE00C2E9C1 /* pia12iostestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E897BFDB2B3035DE00C2E9C1 /* pia12iostestingTests.swift */; };
 		E897BFE62B3035DE00C2E9C1 /* pia12iostestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E897BFE52B3035DE00C2E9C1 /* pia12iostestingUITests.swift */; };
 		E897BFE82B3035DE00C2E9C1 /* pia12iostestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E897BFE72B3035DE00C2E9C1 /* pia12iostestingUITestsLaunchTests.swift */; };
+		E897BFF52B30368C00C2E9C1 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E897BFF42B30368C00C2E9C1 /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		E897BFE12B3035DE00C2E9C1 /* pia12iostestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pia12iostestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E897BFE52B3035DE00C2E9C1 /* pia12iostestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pia12iostestingUITests.swift; sourceTree = "<group>"; };
 		E897BFE72B3035DE00C2E9C1 /* pia12iostestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pia12iostestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E897BFF42B30368C00C2E9C1 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		E897BFF62B30673700C2E9C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 		E897BFBE2B3035DC00C2E9C1 = {
 			isa = PBXGroup;
 			children = (
+				E897BFF62B30673700C2E9C1 /* README.md */,
 				E897BFC92B3035DC00C2E9C1 /* pia12iostesting */,
 				E897BFDA2B3035DE00C2E9C1 /* pia12iostestingTests */,
 				E897BFE42B3035DE00C2E9C1 /* pia12iostestingUITests */,
@@ -98,6 +102,7 @@
 				E897BFCC2B3035DC00C2E9C1 /* ContentView.swift */,
 				E897BFCE2B3035DE00C2E9C1 /* Assets.xcassets */,
 				E897BFD02B3035DE00C2E9C1 /* Preview Content */,
+				E897BFF42B30368C00C2E9C1 /* Todo.swift */,
 			);
 			path = pia12iostesting;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E897BFCD2B3035DC00C2E9C1 /* ContentView.swift in Sources */,
+				E897BFF52B30368C00C2E9C1 /* Todo.swift in Sources */,
 				E897BFCB2B3035DC00C2E9C1 /* pia12iostestingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
